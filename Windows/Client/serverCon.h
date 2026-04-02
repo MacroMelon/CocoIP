@@ -2,6 +2,9 @@
 // Created by thari on 4/4/2020.
 //
 
+#ifndef CTRL_VIA_IP_CONTROLLERCLIENT_SERVERCON_H
+#define CTRL_VIA_IP_CONTROLLERCLIENT_SERVERCON_H
+
 //#define debugOutput
 
 #include <winsock2.h>
@@ -29,3 +32,5 @@ public:
     int cleanUp();
 
 };
+
+#endif //CTRL_VIA_IP_CONTROLLERCLIENT_SERVERCON_H

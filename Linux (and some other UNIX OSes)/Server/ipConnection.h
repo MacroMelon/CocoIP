@@ -2,6 +2,9 @@
 // Created by thari on 4/3/2020.
 //
 
+#ifndef CTRL_VIA_IP_SERVER_IPCONNECTION_H
+#define CTRL_VIA_IP_SERVER_IPCONNECTION_H
+
 //#define debugOutput
 
 #include <sys/types.h>
@@ -34,3 +37,5 @@ public:
 
 
 };
+
+#endif //CTRL_VIA_IP_SERVER_IPCONNECTION_H
